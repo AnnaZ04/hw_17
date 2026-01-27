@@ -1,0 +1,33 @@
+@use 'variables';
+.footer{
+ max-width: 1440px;   
+ height: 125px;
+ background-color: variables.$color-green;
+}
+
+
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+padding-top: 51px;
+padding-bottom: 49px;
+padding-left: 131px;
+gap: 20px;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_description{
+    padding-right: 131px;
+    color: variables.$color-white;
+    font-family: variables.$font;
+    line-height: 125%;
+    font-weight: 400;
+    font-size: 20px;
+}
